@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <main class="main-container">
+<!--search bar-->
+        <header class="input_box">
+            <input class="city_input" type="text" placeholder="Enter city">
+            <button class="btn">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>     
+        </header>
+        
+<!--end search bar-->  
+
+        <section class="weather-container">
+            <div class="location-date">
+                <div class="location">
+                    <h4 class="location-text"></h4>
+                </div>
+
+                <div class="toggle">
+                    <button class="celsius regular-txt" type="button">°C</button>
+                    <br>
+                    <button class="fahrenheit regular-txt" type="button">°F</button>
+                    </div>
+
+                <h5 class="current-date-text regular-txt"></h5>
+            </div>
+
+            <div class="weather">
+                <img src="" alt="" class="weather-icon">
+                <h1 class="temp"></h1>
+                <h2 class="city regular-txt"></h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="" alt="">
+                        <div>
+                            <p class="humidity"></p>
+                            <p class="regular-txt">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="" alt="">
+                        <div>
+                            <p class="wind"></p>
+                            <p class="wind regular-txt"> Wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="seven-day-containter">
+                <div class="forecast">
+                    <h5 class="forecast-date regular-txt">h</h5>
+                    <img src="" alt="" class="forecast-icon">
+                    <h5 class="forecast-temp"> </h5>
+                </div>
+                  <div class="forecast">
+                    <h5 class="forecast-date regular-txt">h</h5>
+                    <img src="" alt="" class="forecast-icon">
+                    <h5 class="forecast-temp"> </h5>
+                </div>
+                  <div class="forecast">
+                    <h5 class="forecast-date regular-txt">h</h5>
+                    <img src="" alt="" class="forecast-icon">
+                    <h5 class="forecast-temp"> </h5>
+                </div>
+                </div>
+        
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+<footer>
+
+</footer>
+</html>
